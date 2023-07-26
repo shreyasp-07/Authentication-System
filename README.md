@@ -83,14 +83,6 @@ The Authentication System is a web application built using Django in the backend
 
 - Update the frontend API URL: In the React frontend (frontend/src/api/api.js), replace `http://localhost:8000/api/` with the URL of your Django backend API.
 
-## Contributing
-
-If you would like to contribute to this project, please follow the guidelines specified in the CONTRIBUTING.md file.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgements
 
 This Authentication System is built using the following libraries and technologies:
@@ -102,4 +94,4 @@ This Authentication System is built using the following libraries and technologi
 
 ## Contact
 
-For any inquiries or feedback, please contact us at [email address]. We appreciate your support and contributions to this project!
+For any inquiries or feedback, please contact at shreyaspachpute2002@gmail.com.
