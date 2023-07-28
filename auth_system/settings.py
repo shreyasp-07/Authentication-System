@@ -5,7 +5,7 @@ from datetime import timedelta
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-ch^*77#uy9y$dlkm_s%%_r+=hhs83*z1$&c*uzx)522$dq)w9y'
+SECRET_KEY = [Django SECRET KEY]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -63,15 +63,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'auth_system.wsgi.application'
 
-# EMAIL
-# account - shreyasdeveloper049@gmail.com
-# app password - hlruaauqxacvccmy
-
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'shreyasdeveloper049@gmail.com'
-EMAIL_HOST_PASSWORD = 'hlruaauqxacvccmy'
+EMAIL_HOST_USER = [Your Email ID]
+EMAIL_HOST_PASSWORD = [Your Email Password]
 EMAIL_USE_TLS = True
 
 DATABASES = {
@@ -79,7 +75,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'authentication_system',
         'USER': 'postgres',
-        'PASSWORD': '231711',
+        'PASSWORD': [Your SQL Password],
         'HOST': 'localhost',
         'PORT': 5432,
     }
@@ -143,10 +139,10 @@ DJOSER = {
         'user_delete': 'djoser.serializers.UserDeleteSerializer',
     }
 }
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '870357804660-1arhskrf9umc6ftddagr86fu7v4n9mjh.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = [Your Google Oauth Key]
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = [Your Google Oauth Secret]
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/userinfo.email','https://www.googleapis.com/auth/userinfo.profile','openid']
-SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['first_name','last_name']
+SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['name']
 
 # DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
